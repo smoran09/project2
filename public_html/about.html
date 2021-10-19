@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title> F Layout Page </title>
     <meta name="description" content="This is an example of meta description.">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
     <link rel="stylesheet" href="css/style.css">
 
@@ -51,21 +52,23 @@
             line-height: 100px;
         }
 
-        #sidecontent{
-            float: left;
+        #sidecontent {
+           float: left;
         }
+
         .clearFix {
             clear: both;
         }
-        .firstrow{
-            float: right;
-        }
-        .dataimg{
-           width: 400px;
+
+
+        .dataimg {
+            width: 200px;
+            height: 200px;
         }
 
-        section{
+        section {
             background-color: grey;
+            position: page;
         }
     </style>
 
@@ -149,23 +152,32 @@
     <article id="primarycontent" class="floatleft">
         <h1>F LAYOUT PAGE </h1>
 
-        <div class="firstrow">
-        <h2>First Row Title</h2>
-            <section>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra egestas molestie. Phasellus
-            facilisis arcu ut purus accumsan, et lacinia nibh mollis. Pellentesque consectetur sit amet lorem vitae
-            bibendum. Aenean porttitor a velit vitae accumsan. Mauris ornare, nulla eu facilisis aliquam, quam lectus
-            bibendum massa, et vulputate turpis nisl quis erat. Phasellus non diam bibendum, blandit odio in, rutrum
-            purus. Integer ac dolor eget nunc placerat luctus. Sed vel risus quis ligula cursus tempor. Praesent
-            facilisis ligula metus, et lacinia urna consectetur ut. Nulla eget varius nibh. Nulla luctus augue molestie,
-            ullamcorper odio vel, faucibus ante. Nunc fringilla accumsan egestas. Phasellus ut metus in tellus lacinia
-            bibendum at pharetra ligula. Integer faucibus aliquam sem. Donec eget vestibulum sapien, vel varius eros.
-            Donec dapibus tincidunt hendrerit.
-            </section>
+        <h2>First Row Title </h2>
+        <div id="sidecontent">
+            <img class="dataimg" src="images/datacenter.jpg" alt="Data Center Image">
         </div>
+            <section>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra egestas molestie.
+                Phasellus
+                facilisis arcu ut purus accumsan, et lacinia nibh mollis. Pellentesque consectetur sit amet lorem vitae
+                bibendum. Aenean porttitor a velit vitae accumsan. Mauris ornare, nulla eu facilisis aliquam, quam
+                lectus
+                bibendum massa, et vulputate turpis nisl quis erat. Phasellus non diam bibendum, blandit odio in, rutrum
+                purus. Integer ac dolor eget nunc placerat luctus. Sed vel risus quis ligula cursus tempor. Praesent
+                facilisis ligula metus, et lacinia urna consectetur ut. Nulla eget varius nibh. Nulla luctus augue
+                molestie,
+                ullamcorper odio vel, faucibus ante. Nunc fringilla accumsan egestas. Phasellus ut metus in tellus
+                lacinia
+                bibendum at pharetra ligula. Integer faucibus aliquam sem. Donec eget vestibulum sapien, vel varius
+                eros.
+                Donec dapibus tincidunt hendrerit.
+            </section>
 
 
         <h2>Second Row Title </h2>
+        <div id="sidecontent">
+            <img class="dataimg" src="images/datacenter.jpg" alt="Data Center Image">
+        </div>
         <section>
             Maecenas consectetur hendrerit dolor non viverra. Nunc laoreet, mauris nec bibendum convallis, metus urna
             congue nisi, consectetur dapibus augue quam at elit. Orci varius natoque penatibus et magnis dis parturient
@@ -177,7 +189,11 @@
             Nullam viverra scelerisque elit, quis efficitur leo sollicitudin in. Etiam eu elementum est, ac dapibus
             nisi.
         </section>
+
         <h2>Third Row Title </h2>
+        <div id="sidecontent">
+            <img class="dataimg" src="images/datacenter.jpg" alt="Data Center Image">
+        </div>
         <section>
             In hac habitasse platea dictumst. Sed dignissim justo eget elit cursus, ac dictum mi malesuada. Praesent
             ornare dui vel massa eleifend, eget sagittis ligula dapibus. Mauris id dui lectus. Vivamus blandit mattis
@@ -185,17 +201,15 @@
             molestie quis. Aliquam nunc nulla, finibus a consectetur in, tempor sed enim. Nulla sit amet scelerisque
             ipsum. Pellentesque faucibus risus hendrerit sapien varius, eu tincidunt sem accumsan. Integer vitae
             placerat lectus.
-        <ol>
-            <li>List Item 1</li>
-            <li>List Item 2</li>
-            <li>List Item 3</li>
-        </ol>
+            <ol>
+                <li>List Item 1</li>
+                <li>List Item 2</li>
+                <li>List Item 3</li>
+            </ol>
         </section>
 
     </article>
-    <div id="sidecontent">
-        <img class="dataimg" src="images/datacenter.jpg" alt="Data Center Image">
-    </div>
+
 
     <footer id="footer" class="clearFix">
         Maryana Stefanyshyn&#169;
