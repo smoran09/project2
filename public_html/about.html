@@ -63,16 +63,22 @@
             height: 100px;
             line-height: 100px;
         }
-
+        #sidecontent{
+            text-align: left;
+        }
         .clearFix {
             clear: both;
         }
         .firstrow{
+            text-align: left;
 
 
         }
         .dataimg{
            width: 400px;
+            float: left;
+            display: inline-block;
+
 
         }
     </style>
@@ -156,7 +162,7 @@
 
     <article id="primarycontent" class="floatleft">
         <h1>F LAYOUT PAGE </h1>
-        <img class="dataimg" src="images/datacenter.jpg" alt="Data Center Image">
+
         <div class="firstrow">
         <h2>First Row Title</h2>
             <p>
@@ -169,7 +175,8 @@
             ullamcorper odio vel, faucibus ante. Nunc fringilla accumsan egestas. Phasellus ut metus in tellus lacinia
             bibendum at pharetra ligula. Integer faucibus aliquam sem. Donec eget vestibulum sapien, vel varius eros.
             Donec dapibus tincidunt hendrerit.
-        </p>
+             </p>
+
         </div>
 
 
@@ -204,6 +211,7 @@
 
     </article>
     <div id="sidecontent">
+        <img class="dataimg" src="images/datacenter.jpg" alt="Data Center Image">
     </div>
     <footer id="footer" class="clearFix">
         Maryana Stefanyshyn&#169;
