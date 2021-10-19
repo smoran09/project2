@@ -27,9 +27,6 @@
             margin-right: auto;
         }
 
-        #primarylinks menu {
-
-        }
 
         .floatleft {
             float: left;
@@ -55,22 +52,20 @@
         }
 
         #sidecontent{
-            text-align: left;
+            float: left;
         }
         .clearFix {
             clear: both;
         }
         .firstrow{
-            text-align: left;
-
-
+            float: right;
         }
         .dataimg{
            width: 400px;
-            float: left;
-            display: inline-block;
+        }
 
-
+        section{
+            background-color: grey;
         }
     </style>
 
@@ -156,7 +151,7 @@
 
         <div class="firstrow">
         <h2>First Row Title</h2>
-            <p>
+            <section>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra egestas molestie. Phasellus
             facilisis arcu ut purus accumsan, et lacinia nibh mollis. Pellentesque consectetur sit amet lorem vitae
             bibendum. Aenean porttitor a velit vitae accumsan. Mauris ornare, nulla eu facilisis aliquam, quam lectus
@@ -166,13 +161,12 @@
             ullamcorper odio vel, faucibus ante. Nunc fringilla accumsan egestas. Phasellus ut metus in tellus lacinia
             bibendum at pharetra ligula. Integer faucibus aliquam sem. Donec eget vestibulum sapien, vel varius eros.
             Donec dapibus tincidunt hendrerit.
-             </p>
-
+            </section>
         </div>
 
 
         <h2>Second Row Title </h2>
-        <p>
+        <section>
             Maecenas consectetur hendrerit dolor non viverra. Nunc laoreet, mauris nec bibendum convallis, metus urna
             congue nisi, consectetur dapibus augue quam at elit. Orci varius natoque penatibus et magnis dis parturient
             montes, nascetur ridiculus mus. Vivamus sit amet posuere magna. Duis ac molestie nibh. Praesent porttitor
@@ -182,28 +176,27 @@
             primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed vel quam ipsum. Aliquam ac quam ex.
             Nullam viverra scelerisque elit, quis efficitur leo sollicitudin in. Etiam eu elementum est, ac dapibus
             nisi.
-        </p>
+        </section>
         <h2>Third Row Title </h2>
-        <p>
+        <section>
             In hac habitasse platea dictumst. Sed dignissim justo eget elit cursus, ac dictum mi malesuada. Praesent
             ornare dui vel massa eleifend, eget sagittis ligula dapibus. Mauris id dui lectus. Vivamus blandit mattis
             leo ut varius. Nullam consequat ut justo in placerat. Pellentesque volutpat est tellus, et hendrerit justo
             molestie quis. Aliquam nunc nulla, finibus a consectetur in, tempor sed enim. Nulla sit amet scelerisque
             ipsum. Pellentesque faucibus risus hendrerit sapien varius, eu tincidunt sem accumsan. Integer vitae
             placerat lectus.
-        </p>
         <ol>
             <li>List Item 1</li>
             <li>List Item 2</li>
             <li>List Item 3</li>
-
         </ol>
-
+        </section>
 
     </article>
     <div id="sidecontent">
         <img class="dataimg" src="images/datacenter.jpg" alt="Data Center Image">
     </div>
+
     <footer id="footer" class="clearFix">
         Maryana Stefanyshyn&#169;
     </footer>
