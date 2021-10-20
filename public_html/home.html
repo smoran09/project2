@@ -14,7 +14,7 @@
       width: 630px;
       text-align: right;
       float: right;
-      font-size: 40px;
+      font-size: 32px;
     }
 
     #primarylinks li {
@@ -33,8 +33,8 @@
     }
 
     .logoimg {
-      width: 270px;
-      height: 205px;
+      width: 236px;
+      height: 200px;
     }
 
     #primarycontent {
@@ -44,8 +44,11 @@
     #footer {
       clear: both;
       text-align: center;
-      height: 100px;
-      line-height: 100px;
+      margin-top: 510px;
+      position: relative;
+      width: 100%;
+
+
     }
     .clearFix {
       clear: both;
@@ -54,15 +57,14 @@
       margin:0px;
     }
     .container{
-      width:71vw;
-      height:87vh;
+      width:52vh;
+      height:39vh;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: 73px 1fr 1fr 197px;
       gap:10px;
-      padding: 29px;
       box-sizing:border-box;
-      transform: translate(10px,42px);
+      transform: translate(132px,31px);
     }
     .container div{
       padding: 10px;
@@ -72,9 +74,11 @@
     .header{
       grid-column-start: 1;
       grid-column-end: 4;
-      font-size: 30px;
-      color: red;
+      font-size: 29px;
+      color: blue;
       font-weight: bold;
+      height: 34px;
+      width: 400px;
 
     }
     .content-large{
@@ -82,10 +86,20 @@
       grid-row-end: span 2;
       grid-column-start: 1;
       grid-column-end: 3;
+      height:298px;
+      width: 400px;
+    }
+
+    .content-small{
+      width: 350px;
+      height: 132px;
+
     }
     .computer-img{
-      width:565px;
+      height: auto;
+      max-width: 100%;
     }
+
   </style>
 
 </head>
@@ -103,9 +117,10 @@
     <li><a href="test.html"> TEST </a></li>
 
   </menu>
+  <article id="primarycontent" >
 
   <div class="container">
-    <div class="header"> Z Layout Page</div>
+    <div class="header"> This is Z Layout Page</div>
     <div class="content-large">
       <img class="computer-img" src="images/computer.jpg" alt="home page picture">
     </div>
@@ -113,8 +128,7 @@
       Content 2
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra egestas molestie. Phasellus
-        facilisis arcu ut purus accumsan, et lacinia nibh mollis. Pellentesque consectetur sit amet lorem vitae
-        bibendum. Aenean porttitor a velit vitae accumsan.
+        facilisis arcu ut purus accumsan, et lacinia nibh mollis.
       </p>
     </div>
 
@@ -123,22 +137,19 @@
       <p>
         Mauris ornare, nulla eu facilisis aliquam, quam lectus
         bibendum massa, et vulputate turpis nisl quis erat. Phasellus non diam bibendum, blandit odio in, rutrum
-        purus. Integer ac dolor eget nunc placerat luctus. Sed vel risus quis ligula cursus tempor. Praesent
-        facilisis ligula metus, et lacinia urna consectetur ut.
+        purus. Integer ac dolor eget nunc placerat luctus. Sed vel risus quis ligula cursus tempor.
       </p>
     </div>
 
   </div>
 
 
-  <article id="primarycontent" class="floatleft">
+
 
   </article>
-  <div id="sidecontent">
-  </div>
-  <footer id="footer" class="clearFix">
-    Maryana Stefanyshyn&#169;
-  </footer>
+    <footer id="footer" class="clearFix">
+      Maryana Stefanyshyn&#169;
+    </footer>
 </div>
 </body>
 </html>
