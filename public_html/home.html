@@ -56,12 +56,17 @@
             vertical-align: middle;
             width: 100%;
         }
-        .marquee {
+       .marquee {
             width: 1200px;
             margin: 0 auto;
             white-space: nowrap;
             overflow: hidden;
             box-sizing: border-box;
+
+
+        .marquee {
+            font-family: Garamond, serif;
+
         }
 
         .marquee span {
@@ -80,6 +85,7 @@
             0%   { transform: translate(0, 0); }
             100% { transform: translate(-100%, 0); }
         }
+
     </style>
 
 
@@ -88,7 +94,7 @@
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top" style="background-color:aliceblue">
     <div class="container-fluid">
-        <a class="navbar-brand" >
+        <a class="navbar-brand">
             <img src="images/world.svg" alt="Logo Image" width="50" height="50">
             History of the Internet
         </a>
@@ -125,51 +131,55 @@
     </div>
 </nav>
 
-<body>
+
 <!-- Option 1: Bootstrap Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+
+<body>
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
             <img src="images/earth.jpg" alt="test" class="img-fluid">
-            <p style="font-size: 8px">  [Image. From Pixabay by TheDigitalArtist. April 26, 2017.
+            <p style="font-size: 8px"> [Image. From Pixabay by TheDigitalArtist. April 26, 2017.
                 (https://pixabay.com/photos/earth-internet-globalization-2254769/)]</p>
+
             <div id="marquee" div class="marquee">
                 <p class="marquee"><span>"The Web does not just connect machines, it connects people."-Tim Berners-Lee</span></p>
+
+            <div id="marquee" class="marquee">
+                <marquee>
+                    <h1>"The Web does not just connect machines, it connects people."-Tim Berners-Lee</h1>
+                </marquee>
+
             </div>
         </div>
     </div>
 </div>
 
-
-<section>
-
-
-    <div class="container my-container">
-        <div class="row my-row">
-            <div class="col-md-12 col-sm-6 my-col">
-            </div>
-            <div class="col col-sm-6 my-col">
-                <h3><i><strong>About</strong></i></h3>
-                Welcome to History of the Internet. The material briefly focuses on the early invention of the internet,
-                the mechanics behind the production, and it's affect on society through economic, social, and legal
-                means.
-            </div>
+<div class="container my-container">
+    <div class="row my-row">
+        <div class="col-md-12 col-sm-6 my-col">
         </div>
-        <div class="row my-row">
-            <div class="col col-sm-6 my-col">
-                <p>
+        <div class="col col-sm-6 my-col">
+            <h3><i><strong>About</strong></i></h3>
+            Welcome to History of the Internet. The material briefly focuses on the early invention of the internet,
+            the mechanics behind the production, and it's affect on society through economic, social, and legal
+            means.
+        </div>
+    </div>
+    <div class="row my-row">
+        <div class="col col-sm-6 my-col">
+            <p>
                 The years observed span from the 1950's until the early 2000's. The content displayed details a history
                 rich in success through a series of roles.
                 From inventor, creator, and coder to users like, <b><i>us.</i></b>
-                </p>
-            </div>
+            </p>
         </div>
     </div>
+</div>
 
-</section>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <footer id="footer">
