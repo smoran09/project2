@@ -105,7 +105,7 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 
-<h1><strong>Pylint</strong></h1>
+<h1><strong>Pylint Tutorial</strong></h1>
 
 <section>
     <div class="container my-container">
@@ -137,7 +137,76 @@
                 <h4><strong>Where can I use it?</strong></h4>
                 Pylint may be installed, integrated, and then ran as a command on a terminal.
             </div>
+            <div class="row my-row">
+                <div class="col-lg-12 col-md-12 col-sm-6 my-col">
+                    <h4><u><strong>Intro</strong></u></h4>
+                    <li>Pylint evaluates and grades a code for errors and quality. These tips and tricks, focused on disabling for easier
+                        coding, allow pylint to be used in a great way. Other third-party systems, such as Travis-CI which serves as certifying
+                        the code correlates with pylint's reporting.
+                    </li>
+                </div>
+                <div class="container my-container">
+                    <div class="row my-row">
+                        <div class="col-md-4 col-sm-6 my-col">
+                            <img class="img-fluid" src="images/disable.jpg" alt="Pylint Disable example">
+                            <p style="font-size: 8px"> [Image. From Samantha Moran Nov.21,2021)]</p>
+                        </div>
+                        <div class="col-md-8 col-sm-6 my-col">
+                            <h4><u><strong>Action</strong></u></h4>
+                            Tips and Tricks
+                            <ul>
+                                <li>Disabling for smoother coding by editing file .pylintrc and adding the context which the user wants pylint to look passed.
+                                </li>
+                                <li> This command shows errors and warnings only.
+                                    pylint --disable=R,C some_script.py
+                                </li>
+                                <li>Error messages only: pylint -E some_script.py
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-4 my-col">
+                        <h4><u><strong> Continued</strong></u></h4>
+                        More tips and tricks
+                        <table class="table table-sm">
+                            <tbody>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>For pylint not to check a module- #pylint: skip-file</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Use a code for messages instead of memorizing- # pylint: disable=fixme, line-too-long</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Disables a message of the following line- # pylint: disable-next=msgid </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>To view which lines are not being covered, use this command: # pytest --pylint --cov --cov-report term-missing</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row my-row">
+                    <div class="col-md-4 col-sm-6 my-col">
+                        <img class="img-fluid" src="images/matrix.jpg" alt="Image of the Matrix">
+                        <p style="font-size: 8px"> [Image. From Pixabay by designwebjae. Jan 26 ,2018.
+                            (https://pixabay.com/images/id-3109378/)]</p>
+                    </div>
+                    <div class="col-md-8 col-sm-6 my-col">
+                        <h4><u><strong>Conclusion</strong></u></h4>
+                        Pylint is important in order to determine what errors need to be fixed and how you may fix them. Pylint essentially
+                        cleans the code for the user without actually doing it. It allows for the user to create their own version of solution.
+                        It is important to note that Pylint is not perfect, and therefore, the disable option for Pylint allows for the code to come
+                        near to perfect in order to have 100% coverage. Pylint allows for certification of a code to be possible and to be measurable among
+                        other codes by using the same measurement ability.
+                    </div>
 
+                </div>
+            </div>
     </div>
 
 
