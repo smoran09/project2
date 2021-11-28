@@ -1,3 +1,4 @@
 
-[Project2](project2.eastus.azurecontainer.io) <br>
+[Project2](http://project2sm.eastus.azurecontainer.io/home.html) <br>
+http://project2sm.eastus.azurecontainer.io/home.html
 Samantha Moran
