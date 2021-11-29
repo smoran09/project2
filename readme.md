@@ -1,4 +1,4 @@
 
-[Project2](http://project2sm.eastus.azurecontainer.io/home.html) <br>
-http://project2sm.eastus.azurecontainer.io/home.html
+[Project2](http://pythonproject2.eastus.azurecontainer.io/home.html) <br>
+http://pythonproject2.eastus.azurecontainer.io/home.html
 Samantha Moran
